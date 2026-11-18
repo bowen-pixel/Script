@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.sonic-runtime/
+.runtime/
+.discord-photo-runtime/
+.local-evidence/
+*.zip

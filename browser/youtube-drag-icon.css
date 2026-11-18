@@ -1,0 +1,21 @@
+/* Original minimal seek-handle adapter. Install as a site-specific Stylus style.
+   Set --progress-icon to your own authorized HTTPS image URL to change the artwork.
+   This only decorates the existing handle; seeking remains the player's own behavior.
+*/
+.html5-video-player {
+  --progress-icon: url("https://i.imgur.com/sR2lxuX.gif");
+}
+.html5-video-player .ytp-scrubber-button {
+  overflow: visible !important;
+}
+.html5-video-player .ytp-scrubber-button::after {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 40px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background: var(--progress-icon) center / contain no-repeat;
+  pointer-events: none;
+}
