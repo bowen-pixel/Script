@@ -1,0 +1,17 @@
+[data-ds-part="sidebar"] {
+  background-color: rgba(20, 24, 45, 0.8);
+  border-right-color: var(--ds-theme-color-line);
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+[data-ds-part="composer"] {
+  border-radius: 16px;
+  border-color: var(--ds-theme-color-accent);
+  border-width: 1px;
+  border-style: solid;
+}
+[data-ds-part="dialog"] {
+  background-color: var(--ds-theme-color-panel);
+  color: var(--ds-theme-color-text);
+  border-radius: 16px;
+}

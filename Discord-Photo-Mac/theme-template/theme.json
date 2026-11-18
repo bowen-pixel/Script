@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "my-discord-theme",
+  "name": "My Discord Theme",
+  "image": "background.png",
+  "appearance": "dark",
+  "art": {"focusX": 0.5, "focusY": 0.5},
+  "colors": {
+    "background": "#151720", "panel": "#20243a", "panelAlt": "#292d46",
+    "accent": "#a6b6ff", "text": "#f1f4ff", "muted": "#bfc8df", "line": "#485574"
+  }
+}
